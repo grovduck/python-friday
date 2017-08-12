@@ -1,0 +1,51 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary project-path
+#
+# See:
+#    https://pypi.python.org/pypi/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=project-path/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    appveyor:                  'yes'
+    c_extension_cython:        'yes'
+    c_extension_optional:      'no'
+    c_extension_support:       'yes'
+    codacy:                    'no'
+    codeclimate:               'no'
+    codecov:                   'yes'
+    command_line_interface:    'click'
+    command_line_interface_bin_name: 'friday'
+    coveralls:                 'yes'
+    distribution_name:         'friday'
+    email:                     'matt.gregory@oregonstate.edu'
+    full_name:                 'Matt Gregory'
+    github_username:           'grovduck'
+    landscape:                 'no'
+    license:                   'BSD license'
+    linter:                    'flake8'
+    package_name:              'friday'
+    project_name:              'Friday'
+    project_short_description: 'Spending a Friday evening coding'
+    release_date:              'today'
+    repo_name:                 'python-friday'
+    requiresio:                'yes'
+    scrutinizer:               'no'
+    sphinx_doctest:            'no'
+    sphinx_theme:              'sphinx-rtd-theme'
+    test_matrix_configurator:  'yes'
+    test_matrix_separate_coverage: 'no'
+    test_runner:               'pytest'
+    travis:                    'yes'
+    version:                   '0.1.0'
+    website:                   'https://lemma.forestry.oregonstate.edu'
+    year:                      'now'
